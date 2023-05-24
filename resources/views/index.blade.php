@@ -157,63 +157,22 @@
       </div>
     </section><!-- End Cta Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-          <h2><i class="bi bi-newspaper"></i>  News</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea in illum. Rem eligendi inventore corporis architecto deserunt odio harum, ab maxime nesciunt dicta repellat iste quod perferendis dolore ad.</p>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="{{URL('img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+    <!-- ======= News Section ======= -->
+      <section>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-title-news">
+                  <h4 class="m-0 text-uppercase font-weight-bold">IBO News</h4>
+                  <a href="" class="text-secondary font-weight-medium text-decoration-none"></a>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="{{URL('img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="{{URL('img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          
         </div>
+      </section>
 
-      </div>
-    </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
