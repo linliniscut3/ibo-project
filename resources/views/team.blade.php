@@ -19,10 +19,70 @@
 
 </head>
 <body>
+    <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>IBO Community</span></a></h1>
+
+        <!-- ======image logo====== -->
+        <!-- <a href="#"><img src="{{asset('img/logo.png')}}" alt="" class="logo"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#cta">Services</a></li>
+          <li><a class="nav-link scrollto" href="{{URL('/team')}}">Our Team</a></li>
+          <li><a class="nav-link scrollto" href="#News">News</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
     <!-- =========Team========== -->
-    <section id="" >
+    <section  >
 
     </section>
+    <!-- ======= Footer ======= -->
+  <footer id="footer">
+  <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2022-2023</span></strong>. All Rights Reserved
+        <br>
+        <div class="terms">
+          <a href="" class="terms">Privacy Policy</a>
+          | 
+          <a href="" class="terms">Term of Service</a>
+          | 
+          <a href="" class="terms">Rules</a>
+        </div>
+      </div>
+      <div class="credits">
+       <a href="#home" class="credits">IBO Multiverse</a>
+      </div>
+    </div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->

@@ -27,12 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Squadfree - v4.7.0
-  * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -53,6 +47,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About Us</a></li>
           <li><a class="nav-link scrollto" href="#cta">Services</a></li>
+          <li><a class="nav-link scrollto" href="{{URL('/team')}}">Our Team</a></li>
           <li><a class="nav-link scrollto" href="#News">News</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -99,7 +94,7 @@
             <div class="content">
               <h3>รู้หรือไม่?</h3>
               <p>
-                การเริ่มต้นครั้งยิ่งใหญ่ภายIBO Multiverse ถูกก่อตั้งขึ้นเพื่อนำเสนอ และ จัดเก็บข้อมูลผู้ที่กระทำความผิดที่อยู่ในรูปแบบของเว็ปไซส์
+                การเริ่มต้นครั้งยิ่งใหญ่ภายIBO Multiverse ถูกก่อตั้งขึ้นเพื่อนำเสนอ และ จัดเก็บข้อมูลผู้ที่กระทำความผิดที่อยู่ในรูปแบบของเว็ปไซต์
               </p>
               <a href="#" class="about-btn">About us <i class="bx bx-chevron-right"></i></a>
             </div>
@@ -334,7 +329,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-6">
+          {{-- <div class="col-lg-4 col-md-6">
             <div class="footer-info">
               <h3>IBO-Multiverse</h3>
               <p class="pb-3"><em>โลกของคอมมูนิตี้สีสัน และ มิตรภาพ</em></p>
@@ -348,7 +343,7 @@
                 <a href="#" class="instagram"><i class="bx bi-instagram"></i></a>
               </div>
             </div>
-          </div>
+          </div> --}}
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>More information</h4>
@@ -366,13 +361,8 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Designer</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Developer</a></li>
-
-              
             </ul>
           </div>
-
-          
-
         </div>
       </div>
     </div>
