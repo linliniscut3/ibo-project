@@ -66,8 +66,16 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
+          
+          <!-- Login -->
+          <div class="login d-flex flex-wrap">
+            <li><a href="{{URL('/admin/login')}}" target="_blank" ><span>login <i class="bi bi-lock-fill"></i></span></a></li>     
+            <li><a href="{{URL('/admin/signin')}}" target="_blank" ><span>Sign in <i class="bi bi-lock-fill"></i></span></a></li>
+          </div>       
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+        <!-- ======login====== -->
+         
       </nav><!-- .navbar -->
 
     </div>
