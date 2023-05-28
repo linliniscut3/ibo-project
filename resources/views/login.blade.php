@@ -24,17 +24,7 @@
 <body>
     
   <div class="container" id="container">
-    <div class="form-container sign-up-container">
-      <form action="#">
-        <h1>Create Account</h1>
 
-        <span>Or use your email for registeration</span>
-        <input type="text" placeholder="Name"> 
-        <input type="email" placeholder="Email" > 
-        <input type="password" placeholder="Password"> 
-        <button>Sign Up</button>
-      </form>
-    </div>
 
     <div class="form-container sign-in-container">
       <form action="#">
@@ -63,6 +53,17 @@
       </div>
     </div>
 
+    <div class="form-container sign-up-container">
+      <form action="#">
+        <h1>Create Account</h1>
+
+        <span>Or use your email for registeration</span>
+        <input type="text" placeholder="Name"> 
+        <input type="email" placeholder="Email" > 
+        <input type="password" placeholder="Password"> 
+        <button>Sign Up</button>
+      </form>
+    </div>
   </div>
 
   <!-- Template Main JS File -->
