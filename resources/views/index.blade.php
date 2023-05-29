@@ -350,7 +350,7 @@
                 <a href="#" class="instagram"><i class="bx bi-instagram"></i></a>
               </div>
             </div>
-          </div> --}}
+          </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>More information</h4>
@@ -372,7 +372,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
 
     <div class="container">
       <div class="copyright">
