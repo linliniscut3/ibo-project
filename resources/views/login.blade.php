@@ -26,18 +26,18 @@
   <div class="container" id="container">
 
 
-    <div class="form-container sign-in-container">
+    <div class="form-container sign-in-container ">
       <form action="#">
         <h1>Sign in</h1>
 
         <span>Or use your account</span>
-        <input type="email" placeholder="Email"> 
-        <input type="password" placeholder="Password">
+        <input type="email" placeholder="Email" class="signin"> 
+        <input type="password" placeholder="Password" class="signin">
         <button>Sign In</button> 
       </form>
     </div>
 
-    <div class="overlay-container">
+    <div class="overlay-container ">
       <div class="overlay">
         <div class="overlay-panel overlay-left">
           <h1>Welcomeback Back! </h1>
@@ -53,14 +53,14 @@
       </div>
     </div>
 
-    <div class="form-container sign-up-container">
+    <div class="form-container sign-up-container ">
       <form action="#">
         <h1>Create Account</h1>
 
         <span>Or use your email for registeration</span>
-        <input type="text" placeholder="Name"> 
-        <input type="email" placeholder="Email" > 
-        <input type="password" placeholder="Password"> 
+        <input type="text" placeholder="Name" class="signup">
+        <input type="email" placeholder="Email" class="signup"> 
+        <input type="password" placeholder="Password" class="signup"> 
         <button>Sign Up</button>
       </form>
     </div>
