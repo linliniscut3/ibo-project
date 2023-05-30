@@ -12,7 +12,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+Route::get('/welcome', function () {
+    return view('welcome');
+});
 Route::get('/', function () {
     return view('index');
 });
@@ -27,4 +29,14 @@ route::get('/users',function (){
 
 route::get('/admin/login',function (){
     return view('login');
+});
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
 });
