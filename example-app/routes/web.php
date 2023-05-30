@@ -14,17 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
-});
-
-route::get('/team',function (){
-    return view('team');
-});
-
-route::get('/users',function (){
-    return view('users');
-});
-
-route::get('/admin/login',function (){
-    return view('login');
+    return view('welcome');
 });
