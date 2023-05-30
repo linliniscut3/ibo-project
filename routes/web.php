@@ -20,7 +20,11 @@ Route::get('/', function () {
 route::get('/team',function (){
     return view('team');
 });
+
+route::get('/admin',function (){
+    return view('admin');
+})->name('admin');
+
 route::get('/admin/login',function (){
     return view('login');
-});
-
+})->name('login');

@@ -147,7 +147,7 @@
         <div class="text-center">
           <h3>โซนเด็กดื้อ</h3>
           <p> เด็กดื้อต้องโดนอะไรน้า กดตรงนี้เพื่อนดูรายชื่อเด็กดื้อ</p>
-          <a class="cta-btn" href="#">Click me!</a>
+          <a class="cta-btn" href="{{URL('/admin')}}"target="_blank">Click me!</a>
         </div>
 
       </div>
@@ -382,7 +382,7 @@
           <a href="" class="terms">Privacy Policy</a>
           | 
           <a href="" class="terms">Term of Service</a>
-          | 
+            
           <a href="" class="terms">Rules</a>
         </div>
       </div>
