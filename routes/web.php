@@ -21,10 +21,10 @@ route::get('/team',function (){
     return view('team');
 });
 
-route::get('/admin',function (){
+route::get('/admin/admin',function (){
     return view('admin');
-})->name('admin');
+});
 
 route::get('/admin/login',function (){
     return view('login');
-})->name('login');
+});
