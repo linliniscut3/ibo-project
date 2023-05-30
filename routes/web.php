@@ -21,8 +21,8 @@ route::get('/team',function (){
     return view('team');
 });
 
-route::get('/admin/admin',function (){
-    return view('admin');
+route::get('/admin/users',function (){
+    return view('users');
 });
 
 route::get('/admin/login',function (){
